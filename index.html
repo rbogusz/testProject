@@ -1,0 +1,43 @@
+<html>
+<head><title>Rebecca Bogusz Sample</title></head>
+<body>
+
+<h1>Tell Me About Yourself</h1>
+
+<form name="form1" action="/processindex.php" method="post">
+	First name:<br>
+	<input type="text" name="firstname" size="30"><br>
+	Last name:<br>
+	<input type="text" name="lastname" size="30"><br><br>
+	
+	Favorite color:<br>
+	<select name="colordropdown">
+		<option value="Red">Red</option>
+		<option value="Blue">Blue</option>
+		<option value="Yellow">Yellow</option>
+		<option value="Green">Green</option>
+		<option value="Orange">Orange</option>
+		<option value="Purple">Purple</option>	
+	</select>
+	<br><br>
+	
+	Own any pets?:<br>
+	<input type="checkbox" name="pet1" value="Dog"> Dog<br>
+	<input type="checkbox" name="pet2" value="Cat"> Cat<br>
+	<input type="checkbox" name="pet3" value="Bird"> Bird<br>
+	<input type="checkbox" name="pet4" value="Fish"> Fish<br>
+	<input type="checkbox" name="pet5" value="None" checked> None<br><br>
+	
+	Favorite pizza topping(s):<br>
+	<input type="checkbox" name="topping1" value="Cheese" checked> Cheese<br>
+	<input type="checkbox" name="topping2" value="Pepperoni"> Pepperoni<br>
+	<input type="checkbox" name="topping3" value="Mushroom"> Mushroom<br>
+	<input type="checkbox" name="topping4" value="Sausage"> Sausage<br><br>
+	
+	Hobbies:<br>
+	<textarea cols="40" rows="4" placeholder="Enter hobbies here..." name="textarea1"></textarea>
+	<br><br>
+	<input type="submit" value="Submit">
+</form>
+</body>
+</html>
